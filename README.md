@@ -1,0 +1,1 @@
+This is a node package module that censors specified words.
