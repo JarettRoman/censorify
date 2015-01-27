@@ -14,8 +14,8 @@ function addCensoredWord(word) {
   customCensoredWords.push(word);
 }
 
-function getCensoredWords(word) {
-  censoredWords.concat(customCensoredWords);
+function getCensoredWords() {
+  return censoredWords.concat(customCensoredWords);
 }
 
 exports.censor = censor;
